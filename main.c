@@ -49,7 +49,9 @@ int main() {
 
     // Exibir informações sobre a primeira e última página do arquivo mapeado
     uintptr_t endereco_inicial = (uintptr_t)mapa;
+    // Esta linha calcula o número da página na qual o endereço inicial está localizado, considerando que cada página tem 4096 bytes.
     uintptr_t numero_pagina_inicial = endereco_inicial >> 12;
+    // Ccalcula o offset (deslocamento) dentro da página, onde o endereço inicial está posicionado.
     uintptr_t offset_pagina_inicial = endereco_inicial & 0xFFF;
 
     uintptr_t endereco_final = (uintptr_t)(mapa + tamanho_arquivo - 1);
