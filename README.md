@@ -17,9 +17,12 @@ Funcionamento:
  Arquivo de texto biblia.txt no mesmo diretório do código fonte.
 
 ## Referências
-* How to Map Files into Memory in C (mmap, memory mapped file io) 
+* How to Map Files into Memory in C (mmap, memory mapped file io)
+ 
 https://youtu.be/m7E9piHcfr4?si=JKa0S9x3Mwf7gIYC
 * Reading and writing files using memory-mapped I/O
+
 https://learningdaily.dev/reading-and-writing-files-using-memory-mapped-i-o-220fa802aa1c
 * Linux Memory Management — All you need to know
+
 https://hemantra.medium.com/linux-memory-management-all-you-need-to-know-d1dbdda8b386
