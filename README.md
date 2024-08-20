@@ -12,7 +12,7 @@ Funcionamento:
  
  # Requisitos
 
- Sistema operacional Linux (testado no Ubuntu 22.04).
+ Sistema operacional Linux (testado no Ubuntu 22.04 e Fedora Linux 40 Workstation Edition).
  GCC (GNU Compiler Collection) instalado.
  Arquivo de texto biblia.txt no mesmo diretório do código fonte.
 
